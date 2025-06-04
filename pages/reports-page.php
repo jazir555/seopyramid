@@ -61,7 +61,7 @@ public function reports_0_callback() {
 
   $args = array( 'post_type' => array( 'page', 'post' ), 'post_status' => 'publish', 'posts_per_page' => -1, 'update_post_meta_cache' => 'false' );
 
-  $wpb_all_query = new\ WP_Query( $args );
+  $wpb_all_query = new WP_Query( $args );
 
   echo '<table width="100%" border="1" class="seo-pyramid-table">
   <tbody><tr><th scope="col">';
